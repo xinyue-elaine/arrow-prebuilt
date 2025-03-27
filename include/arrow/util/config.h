@@ -33,11 +33,11 @@
 
 #define ARROW_PACKAGE_KIND ""
 
-/* #undef ARROW_COMPUTE */
-/* #undef ARROW_CSV */
+#define ARROW_COMPUTE
+#define ARROW_CSV
 /* #undef ARROW_CUDA */
-/* #undef ARROW_DATASET */
-/* #undef ARROW_FILESYSTEM */
+#define ARROW_DATASET
+#define ARROW_FILESYSTEM
 /* #undef ARROW_FLIGHT */
 /* #undef ARROW_FLIGHT_SQL */
 #define ARROW_IPC
@@ -61,10 +61,10 @@
 /* #undef ARROW_WITH_LZ4 */
 /* #undef ARROW_WITH_MUSL */
 /* #undef ARROW_WITH_OPENTELEMETRY */
-/* #undef ARROW_WITH_RE2 */
+#define ARROW_WITH_RE2
 /* #undef ARROW_WITH_SNAPPY */
 /* #undef ARROW_WITH_UCX */
-/* #undef ARROW_WITH_UTF8PROC */
+#define ARROW_WITH_UTF8PROC
 /* #undef ARROW_WITH_ZLIB */
 /* #undef ARROW_WITH_ZSTD */
 /* #undef PARQUET_REQUIRE_ENCRYPTION */
